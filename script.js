@@ -24,7 +24,5 @@ button.addEventListener("click", () => {
     contribution.innerHTML = `Contribution of each person: $${(
       amountArraySum / personCounter
     ).toFixed(2)}`;
-    console.log(amountArray);
-    console.log(amountArraySum);
   }
 });
